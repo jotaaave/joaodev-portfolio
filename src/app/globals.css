@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #181721;
     --foreground: #ededed;
   }
 }
@@ -23,4 +23,35 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  /* Estilização da barra de rolagem global (Chrome, Safari e Edge) */
+  ::-webkit-scrollbar {
+    width: 6px; /* Deixa a barra fininha como na foto */
+    height: 6px; /* Para barras horizontais */
+  }
+
+  /* O "trilho" por onde a barra corre */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Mantém o fundo limpo */
+  }
+
+  /* A "pílula" que você arrasta */
+  ::-webkit-scrollbar-thumb {
+    background-color: #573FB7; /* Sua cor personalizada */
+    border-radius: 20px; /* Deixa as pontas arredondadas */
+    border: 1px solid transparent; /* Adiciona um pequeno respiro */
+  }
+
+  /* Efeito de hover para dar um feedback visual */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #6a4fd6; 
+  }
+
+  /* Suporte para Firefox (que usa propriedades diferentes) */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #573FB7 transparent;
+  }
 }

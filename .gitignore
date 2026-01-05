@@ -20,6 +20,10 @@
 # production
 /build
 
+# images
+/public
+favicon.ico
+
 # misc
 .DS_Store
 *.pem
