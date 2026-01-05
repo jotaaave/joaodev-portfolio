@@ -19,9 +19,9 @@
 
 # production
 /build
+/dist
 
 # images
-/public
 favicon.ico
 
 # misc
