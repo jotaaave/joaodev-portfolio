@@ -38,6 +38,13 @@ The project was built using the following technologies:
 - 🚀 **Next.js Performance:** Leveraging Server Components and optimized image loading for near-perfect Lighthouse scores.
 - 🎨 **Dynamic Animations:** Smooth transitions and scroll-linked animations using Framer Motion.
 
+## 🗺️ Roadmap
+
+- [ ] Dark / Light mode
+- [ ] Contact page
+- [ ] Experience page
+- [ ] Footer
+
 ## 📂 Structure
 
 The project follows a modular folder structure to ensure scalability:
