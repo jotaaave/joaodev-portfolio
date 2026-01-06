@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ff0000;
 }
 
 @theme inline {
@@ -14,6 +14,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --foreground: #ededed;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
     --background: #181721;
     --foreground: #ededed;
   }
@@ -23,6 +29,49 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+[data-theme='dark'] {
+  /* Cores principais  */
+  --primary-color: #181721;
+  --secondary-color: #22202a;
+
+  /* Cores do Roxo  */
+  --purple-dark: #573fb7;
+  --purple-medium: #5842b9;
+  --purple-light: #6a4fd6;
+
+  --mobile-hover: #9CA3AF;
+
+  --border-color-principal: #ffffff;
+
+  /* Cores de Texto  */
+  --label-one: #ffffff;
+
+  /* Cores de Fundos  */
+  --background: #181721;
+
+  --sun: #ffffff;
+  --moon: #2c2936;
+}
+
+[data-theme='light'] {
+  --primary-color: #F4F6FB;
+  --secondary-color: #F4F6FB;
+  --background: #FFFFFF;
+
+  --label-one: #000000;
+  --border-color-principal: #000000;
+
+  --mobile-hover: #F1F3F6;
+
+  --purple-dark: #9e86ff;
+  --purple-medium: #5842b9;
+  --purple-light: #6a4fd6;
+
+  
+  --sun: #ffffff;
+  --moon: #2c2936;
 }
 
 @layer base {

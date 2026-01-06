@@ -1,5 +1,5 @@
 import TitleAppear from "@/components/titles/title-appear";
-import Card3DPerspective from "./3d-card";
+import Card3DPerspective from "../../components/cards/3d-card";
 import academyApi from '@/../public/AcademyApiImage.png'
 import portfolioImage from '@/../public/meu_portfolio.png'
 import { TbBrandNextjs, TbBrandTailwind, TbBrandTypescript } from "react-icons/tb";
@@ -10,8 +10,8 @@ import { BiLogoPostgresql } from "react-icons/bi";
 export default function SampleProjectView() {
     return (
         <div>
-            <div className="flex flex-col p-20">
-                <TitleAppear className="text-4xl">{'Projects (Mini View)'}</TitleAppear>
+            <div id="projects" className="flex flex-col p-20">
+                <TitleAppear className="text-4xl text-(--label-one)">{'Projects (Mini View)'}</TitleAppear>
                 <div className="w-50 m-20 flex flex-row">
                     <Card3DPerspective
                         title="Gym api"

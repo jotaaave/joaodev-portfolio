@@ -3,7 +3,7 @@ import TypewriterTitle from "./typewriter";
 
 export default function HomeTitle() {
     return <div>
-        <h1 className="text-5xl ml-10 mt-10 lg:text-7xl lg:ml-20 lg:mt-20">
+        <h1 className="text-5xl ml-10 mt-10 lg:text-7xl lg:ml-20 lg:mt-20 text-(--label-one)">
             I&apos;m João Victor,
         </h1>
         <h1 className="text-5xl ml-10 lg:text-7xl lg:ml-20 text-red-700">{<TypewriterTitle />}</h1>
