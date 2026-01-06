@@ -47,6 +47,7 @@ body {
 
   /* Cores de Texto  */
   --label-one: #ffffff;
+  --label-secondary: #99a1af;
 
   /* Cores de Fundos  */
   --background: #181721;
@@ -61,6 +62,8 @@ body {
   --background: #FFFFFF;
 
   --label-one: #000000;
+  --label-secondary: #364153;
+
   --border-color-principal: #000000;
 
   --mobile-hover: #F1F3F6;

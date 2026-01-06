@@ -1,8 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import { TbBrandTypescript } from "react-icons/tb";
-import { SiFastify } from "react-icons/si";
-import { GiJesterHat } from "react-icons/gi";
-import { BiLogoPostgresql } from "react-icons/bi";
 import { IconType } from "react-icons";
 import { ReactElement } from "react";
 
