@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
         <>
-        <div className="hidden md:w-full md:flex md:items-center md:justify-center md:border md:border-(--border-color-principal)/10">
+        <nav className="hidden md:flex md:items-center md:justify-center md:border md:border-(--border-color-principal)/10">
             <div className="bg-(--secondary-color) flex flex-row gap-10 p-2 m-10 items-center justify-center rounded-full w-fit border border-(--border-color-principal)/10">
                 <NavbarLink href="#home">Home</NavbarLink>
                 <NavbarLink href="#about">About</NavbarLink>
@@ -24,7 +24,7 @@ export default function Navbar() {
                 <NavbarLink href="#contact">Contact</NavbarLink>
             </div>
             <DarkLightModeButton />
-        </div>
+        </nav>
         <div className="md:hidden w-full flex items-center justify-center">
             <div className="bg-(--secondary-color) w-full h-15 flex flex-row gap-10 items-center p-2 m-10 rounded-full border border-(--border-color-principal)/10">
                 <NavbarLogo />
