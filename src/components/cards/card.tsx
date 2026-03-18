@@ -15,7 +15,7 @@ export interface ICard {
 
 export default function Card({ title, progress, description, langs, url, image, msg }: ICard) {
     return (
-        <div className="mt-10 bg-(--purple-dark) rounded-xl h-100 flex flex-col">
+        <div className="mt-10 bg-(--purple-dark) rounded-xl h-max flex flex-col">
             <Image className="h-50 rounded-t-xl" src={image} alt="image"/>
             <div className="flex flex-col md:ml-15 items-center text-center px-4">
                 <h1 className="text-md mt-4 font-bold">{title}</h1>

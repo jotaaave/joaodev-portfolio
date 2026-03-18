@@ -23,7 +23,7 @@ export default function SampleProjectView() {
             title: "GYM API",
             description: "Gympass-style REST API for gym management and check-ins.",
             image: academyApi,
-            progress: false,
+            progress: true,
             langs: [
                 <TbBrandTypescript key={'typescript'} className="w-10 h-15" />,
                 <SiFastify key={'fastify'} className="w-10 h-15"/>,
@@ -51,8 +51,8 @@ export default function SampleProjectView() {
     const [actualDot, setDot] = useState(0)
 
     return (
-        <div>
-            <div id="projects" className="flex flex-col p-20">
+        <div className="">
+            <div id="projects" className="flex flex-col p-20 w-full">
                 <TitleAppear className="text-4xl text-(--label-one)">{'Projects'}</TitleAppear>
                 <div className="hidden lg:w-50 lg:m-20 lg:flex lg:flex-row">
                     <Card3DPerspective
@@ -88,7 +88,6 @@ export default function SampleProjectView() {
                         pagination={{
                         type: 'progressbar',
                         }}
-                        navigation={true}
                         modules={[Pagination, Navigation]}
                         onSlideChange={(swiper) => setDot(swiper.activeIndex)}
                         className="mySwiper"

@@ -16,7 +16,7 @@ export default function Footer() {
                         <div className="cursor-pointer mt-10 bg-(--purple-dark) rounded-[300] w-10 h-10 flex items-center justify-center">
                             <h1 className="text-2xl font-bold">JV</h1>
                         </div>
-                        <DescriptionLabel className="ml-0 w-100">
+                        <DescriptionLabel className="ml-0 w-max-content">
                             My name is João Victor, I love programming and I made this portfolio with all my love and care to showcase some of my skills. If you are interested in any service, get in touch via email or another platform.
                         </DescriptionLabel>
                     </div>
